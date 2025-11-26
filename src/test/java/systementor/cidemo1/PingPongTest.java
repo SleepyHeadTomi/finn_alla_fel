@@ -36,7 +36,7 @@ class PingPongTest {
 
     @Test
     void getPingCounterShouldReturnMinusOneIfNoPingHasBeenCalled() {
-        assertEquals(0, pingPong.getPingCounter());
+        assertEquals(-1, pingPong.getPingCounter());
     }
 
     @Test

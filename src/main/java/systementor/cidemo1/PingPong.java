@@ -14,11 +14,11 @@ public class PingPong {
     }
 
     public int getPingCounter(){
-        if (pingCounter < 0){
+        if (pingCounter > 0){
             return pingCounter;
         }
         else{
-            return 100;
+            return -1;
         }
     }
 }
